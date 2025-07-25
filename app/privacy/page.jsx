@@ -52,14 +52,14 @@ export default function PrivacyPage() {
                         <li>To process and schedule your video uploads</li>
                         <li>To send you service-related notifications</li>
                         <li>To improve our service and develop new features</li>
-                        <li>To comply with legal obligations and TikTok's API requirements</li>
+                        <li>To comply with legal obligations and TikTok&apos;s API requirements</li>
                     </ul>
                 </Card>
 
                 <Card className="mb-6">
                     <h2 className="text-2xl font-semibold mb-4">3. TikTok API Integration</h2>
                     <p className="mb-4">
-                        Our service integrates with TikTok's API to provide automation features. By using our service, you authorize us to:
+                        Our service integrates with TikTok&apos;s API to provide automation features. By using our service, you authorize us to:
                     </p>
                     <ul className="list-disc list-inside space-y-2">
                         <li>Access your TikTok account on your behalf</li>
@@ -68,7 +68,7 @@ export default function PrivacyPage() {
                         <li>Manage your posting schedule and preferences</li>
                     </ul>
                     <p className="mt-4 text-sm text-gray-400">
-                        This integration is subject to TikTok's own privacy policy and terms of service.
+                        This integration is subject to TikTok&apos;s own privacy policy and terms of service.
                     </p>
                 </Card>
 
@@ -99,7 +99,7 @@ export default function PrivacyPage() {
                     <h2 className="text-2xl font-semibold mb-4">5. Data Sharing and Disclosure</h2>
                     <p className="mb-4">We do not sell, trade, or otherwise transfer your personal information to third parties, except:</p>
                     <ul className="list-disc list-inside space-y-2">
-                        <li>To TikTok's API as required for service functionality</li>
+                        <li>To TikTok&apos;s API as required for service functionality</li>
                         <li>To comply with legal requirements or court orders</li>
                         <li>To protect our rights, property, or safety</li>
                         <li>With your explicit consent</li>
@@ -134,7 +134,7 @@ export default function PrivacyPage() {
                 </Card>
 
                 <Card className="mb-6">
-                    <h2 className="text-2xl font-semibold mb-4">8. Children's Privacy</h2>
+                    <h2 className="text-2xl font-semibold mb-4">8. Children&apos;s Privacy</h2>
                     <p className="mb-4">
                         Our service is not intended for users under 13 years of age. We do not knowingly collect personal information from children under 13.
                     </p>

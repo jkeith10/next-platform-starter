@@ -28,7 +28,7 @@ export default function TermsPage() {
                 <Card className="mb-6">
                     <h2 className="text-2xl font-semibold mb-4">3. User Responsibilities</h2>
                     <ul className="list-disc list-inside space-y-2">
-                        <li>You must have a valid TikTok account and comply with TikTok's Terms of Service</li>
+                        <li>You must have a valid TikTok account and comply with TikTok&apos;s Terms of Service</li>
                         <li>You are responsible for all content uploaded and posted through this service</li>
                         <li>You must not violate any copyright, trademark, or other intellectual property rights</li>
                         <li>You must not use the service for spam, harassment, or illegal activities</li>
@@ -38,7 +38,7 @@ export default function TermsPage() {
                 <Card className="mb-6">
                     <h2 className="text-2xl font-semibold mb-4">4. TikTok API Compliance</h2>
                     <p className="mb-4">
-                        This service integrates with TikTok's API and must comply with TikTok's Developer Terms of Service. Users are responsible for ensuring their use of the service complies with TikTok's policies.
+                        This service integrates with TikTok&apos;s API and must comply with TikTok&apos;s Developer Terms of Service. Users are responsible for ensuring their use of the service complies with TikTok&apos;s policies.
                     </p>
                 </Card>
 

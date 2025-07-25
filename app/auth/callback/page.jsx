@@ -1,10 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { Card } from '../../../components/card';
 import { useSearchParams } from 'next/navigation';
 
-export default function AuthCallbackPage() {
+function AuthCallbackContent() {
     const [status, setStatus] = useState('processing');
     const [message, setMessage] = useState('Processing authentication...');
     const searchParams = useSearchParams();
@@ -130,5 +130,24 @@ export default function AuthCallbackPage() {
                 </Card>
             </div>
         </div>
+    );
+}
+
+export default function AuthCallbackPage() {
+    return (
+        <Suspense fallback={
+            <div className="py-8">
+                <div className="max-w-2xl mx-auto">
+                    <Card className="text-center">
+                        <div className="py-12">
+                            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-400 mx-auto mb-4"></div>
+                            <p>Loading...</p>
+                        </div>
+                    </Card>
+                </div>
+            </div>
+        }>
+            <AuthCallbackContent />
+        </Suspense>
     );
 } 

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Card } from '../../components/card';
+import { Card } from '../../../components/card';
 
 export default function TikTokAuthPage() {
     const [isLoading, setIsLoading] = useState(false);
